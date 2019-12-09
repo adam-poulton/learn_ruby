@@ -73,6 +73,10 @@ describe "Simon says" do
     it "tells us the first word of 'oh dear' is 'oh'" do
       expect(first_word("oh dear")).to eq("oh")
     end
+
+    it "tells us the first word of 'Hello' is 'Hello'" do
+      expect(first_word("Hello")).to eq("Hello")
+    end
   end
 
   describe "titleize" do
